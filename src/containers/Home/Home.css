@@ -1,0 +1,15 @@
+.Header {
+    height: 10vh;
+    display: flex;
+    background-color: white;
+    align-items: center;
+    border-bottom: 1px solid #e8e8e8;
+}
+@media (min-width: 376px){
+    .List {
+        height: 84vh;
+    }
+}
+.List {
+    height: 82vh;
+}
