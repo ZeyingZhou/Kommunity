@@ -1,17 +1,25 @@
 import React from 'react';
-import {List, Layout} from 'antd';
+import {List, Layout, Tag, Button} from 'antd';
 import DrawerK from '../../components/DrawerK/DrawerK';
 import './Home.css';
 const { Header, Content } = Layout;
 
 const data = [
-    'Racing car sprays burning fuel into crowd.',
-    'Japanese princess to wed commoner.',
-    'Australian walks 100km after outback crash.',
-    'Man charged over missing wedding girl.',
-    'Los Angeles battles huge wildfires.',
+    'Task 1',
+    'Task 2',
+    'Task 3',
+    'Task 4',
+    'Task 5',
+    'Task 6',
+    'Task 7',
+    'Task 8',
   ];
-const Home = () => {
+
+const Home = (props) => {
+  console.log(props);
+  const detailsHandler = () => {
+    props.history.push('/details')
+  };
     return (
         <>
         <Header className="Header">
@@ -22,7 +30,10 @@ const Home = () => {
         size="large"
         bordered
         dataSource={data}
-        renderItem={item => <List.Item className="Item">{item}</List.Item>}
+        renderItem={(item,index) => <List.Item className="Item" id={index} >
+          <div>{item} 
+          <Tag color="magenta" className="tag">magenta</Tag></div>
+          <Button type="primary" ghost onClick={detailsHandler}>DETAIL</Button></List.Item>}
       />
         </Content>
         </>

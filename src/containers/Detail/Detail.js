@@ -7,10 +7,10 @@ const { Header, Content } = Layout;
 const Detail = () => {
     return (
         <>
-        <Header className="Header">
+        <Header className="Header" style={{ position: 'fixed', zIndex: 1, width: '100%' }}>
             <NavBarK></NavBarK>
         </Header>
-        <Content>
+        <Content className="Content">
             <DetailInfo></DetailInfo>
         </Content>
         </>

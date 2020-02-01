@@ -1,9 +1,17 @@
 .Header {
     display: flex;
+    background-color: white;
+    align-items: center;
+    border-bottom: 1px solid #e8e8e8;
+}
+
+.List {
+    border: none;
+}
+.Item {
+    display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: white;
-    /* border-top: 1px solid #e8e8e8; */
 }
 
 .Content {
@@ -12,8 +20,6 @@
     margin-top: 10vh;
     margin-bottom: 8vh;
 }
-
-
 
 @media (min-width: 376px) {
     .Content {

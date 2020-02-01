@@ -1,20 +1,22 @@
 import React from 'react';
 import {Icon} from 'antd';
 import './BottomPane.css';
-
+import {Link} from 'react-router-dom';
 
 const BottomPane = () => {
     return (
         <nav className="navbar">
-        <div onClick type="primary" className="button">
+          <Link to="/">
+          <div type="primary" className="button">
             <Icon type="menu" />
             TASK
           </div>
-            <div onClick type="primary" className="button">
+          </Link>
+            <div type="primary" className="button">
             <Icon type="plus" />
             NEED
           </div>
-            <div onClick type="primary" className="button">
+            <div type="primary" className="button">
             <Icon type="user" />
             MY
             </div>

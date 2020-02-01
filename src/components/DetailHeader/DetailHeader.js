@@ -1,16 +1,11 @@
 import React from 'react';
 import { PageHeader, Button, Descriptions } from 'antd';
-
+import './DetailHeader.css'
 const DetailHeader = () => {
     return (
-        <div
-    style={{
-      backgroundColor: '#F5F5F5',
-      padding: 24,
-    }}
-  >
+        <div className="DetailHeader">
     <PageHeader
-        avatar={{src: "../../assets/Pierce.jpg"}}
+        avatar={{src: "https://image.flaticon.com/icons/svg/147/147144.svg"}}
       ghost={false}
       title="Title"
       subTitle="This is a subtitle"
