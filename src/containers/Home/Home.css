@@ -5,14 +5,28 @@
     align-items: center;
     border-bottom: 1px solid #e8e8e8;
 }
-@media (min-width: 376px){
+
+.content {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10vh;
+    margin-bottom: 8vh;
+}
+
+@media (min-width: 376px) {
+    .content {
+        margin-top: 10vh;
+        margin-bottom: 12vh;
+    }
+}
+/* @media (min-width: 376px){
     .List {
         height: 84vh;
     }
 }
 .List {
     height: 82vh;
-}
+} */
 
 .tag {
     margin-left: 1vh;

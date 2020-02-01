@@ -1,0 +1,9 @@
+.loginform {
+    display: flex;
+    justify-content: center;
+    margin-top: 20vh;
+}
+
+.login {
+    background-color: white;
+}

@@ -13,6 +13,13 @@ const data = [
     'Task 6',
     'Task 7',
     'Task 8',
+    'Task 9',
+    'Task 10',
+    'Task 12',
+    'Task 13',
+    'Task 14',
+    'Task 15',
+    'Task 16'
   ];
 
 const Home = (props) => {
@@ -22,10 +29,10 @@ const Home = (props) => {
   };
     return (
         <>
-        <Header className="Header">
+        <Header className="Header" style={{ position: 'fixed', zIndex: 1, width: '100%' }}>
             <DrawerK></DrawerK>
         </Header>
-        <Content>
+        <Content className="content">
         <List className="List"
         size="large"
         bordered

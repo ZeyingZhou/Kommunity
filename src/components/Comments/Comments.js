@@ -20,6 +20,7 @@ const LoadMoreList = () => {
     return (
         <List
         itemLayout="horizontal"
+        header={<h1>Comments</h1>}
         dataSource={data}
         renderItem={item => (
           <List.Item>
