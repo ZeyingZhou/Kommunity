@@ -16,10 +16,12 @@ const BottomPane = () => {
             <Icon type="plus" />
             NEED
           </div>
-            <div type="primary" className="button">
+          <Link to="/account">
+          <div type="primary" className="button">
             <Icon type="user" />
             MY
             </div>
+          </Link>
         </nav>
 
     )

@@ -1,0 +1,19 @@
+.accounthead {
+    height: 10vh;
+    /* display: flex; */
+    background-color: white;
+    padding: 0;
+    width: 100vw;
+    /* align-items: center; */
+
+}
+
+.Account {
+    height: 92vh;
+}
+
+@media (min-width: 376px) {
+    .Account {
+        height: 88vh;
+    }
+}

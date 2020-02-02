@@ -19,8 +19,8 @@ const data = [
 const MyTask = () => {
     return (
         <>
-            <Header className="Header" style={{ position: 'fixed', zIndex: 1, width: '100%' }}>
-
+            <Header className="taskheader" style={{ position: 'fixed', zIndex: 1, width: '100%' }}>
+                    <h1>My Task</h1>
             </Header>
             <Content className="Content">
             <List

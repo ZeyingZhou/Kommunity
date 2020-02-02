@@ -7,6 +7,7 @@ import {Route, Switch} from 'react-router-dom';
 import {BrowserRouter} from 'react-router-dom';
 import Home from '../../containers/Home/Home';
 import MyTask from '../../containers/MyTask/MyTask';
+import Account from '../../containers/Account/Account';
 import Login from '../../containers/Login/Login';
 import Register from '../../containers/Register/Register';
 import error from '../../containers/404/404';
@@ -21,12 +22,13 @@ const LayoutK = () => {
     <Layout style={{overflowX: "hidden"}}> 
     {/* <Register></Register> */}
     {/* <Login></Login> */}
+ 
     <Switch>
             <Route path="/" exact component={Home}></Route>
+            <Route path="/account" component={Account}></Route>
             <Route path="/details" component={Detail}></Route>
             <Route path="/mytask" component={MyTask}></Route>
-        
-      <Route component={error}></Route>
+            <Route component={error}></Route>
     </Switch>
     <Footer className="Footer">
           <BottomPane></BottomPane>
