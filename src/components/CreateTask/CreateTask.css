@@ -1,0 +1,19 @@
+.task {
+    margin: 0;
+}
+.input {
+    margin: 0;
+}
+.Tags {
+    margin: 0;
+}
+.description {
+    margin: 0;
+    background-color: white;
+}
+
+.button {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

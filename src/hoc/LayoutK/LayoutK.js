@@ -11,6 +11,7 @@ import Account from '../../containers/Account/Account';
 import Login from '../../containers/Login/Login';
 import Register from '../../containers/Register/Register';
 import error from '../../containers/404/404';
+import Need from '../../containers/Need/Need';
 
 const {Footer} = Layout;
 
@@ -24,6 +25,7 @@ const LayoutK = () => {
     {/* <Login></Login> */}
  
     <Switch>
+            <Need></Need>
             <Route path="/" exact component={Home}></Route>
             <Route path="/account" component={Account}></Route>
             <Route path="/details" component={Detail}></Route>
