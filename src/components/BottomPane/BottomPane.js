@@ -12,10 +12,12 @@ const BottomPane = () => {
             TASK
           </div>
           </Link>
-            <div type="primary" className="button">
+          <Link to="/need">
+          <div type="primary" className="button">
             <Icon type="plus" />
             NEED
           </div>
+          </Link>
           <Link to="/account">
           <div type="primary" className="button">
             <Icon type="user" />

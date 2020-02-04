@@ -25,8 +25,9 @@ const LayoutK = () => {
     {/* <Login></Login> */}
  
     <Switch>
-            <Need></Need>
+          
             <Route path="/" exact component={Home}></Route>
+            <Route path="/need" component={Need}></Route>
             <Route path="/account" component={Account}></Route>
             <Route path="/details" component={Detail}></Route>
             <Route path="/mytask" component={MyTask}></Route>
