@@ -8,4 +8,13 @@
 
 .needcontent {
     background-color: white;
+    margin-top: 8vh;
+    
+}
+
+@media (min-width: 376px ) {
+    .needcontent {
+        margin-top: 10vh;
+        margin-bottom: 6vh;
+    }
 }

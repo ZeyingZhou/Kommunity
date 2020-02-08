@@ -9,7 +9,7 @@ const {Content, Header} = Layout;
 const Need = () => {
     return (
         <>
-        <Header className="needheader">
+        <Header className="needheader" style={{ position: 'fixed', zIndex: 1, width: '100%' }}>
             <h1>My Task</h1>
         </Header>
         <Content className="needcontent">

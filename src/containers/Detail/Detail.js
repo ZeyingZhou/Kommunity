@@ -10,7 +10,7 @@ const Detail = () => {
         <Header className="Header" style={{ position: 'fixed', zIndex: 1, width: '100%' }}>
             <NavBarK></NavBarK>
         </Header>
-        <Content className="Content">
+        <Content className="detailContent">
             <DetailInfo></DetailInfo>
         </Content>
         </>
